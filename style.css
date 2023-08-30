@@ -1,0 +1,60 @@
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: #222; */
+    color: green;
+    font-size: 25px;
+    padding: 20px;
+    
+    text-align: center; /* Add this line */
+}
+
+h1 {
+    border: 2px solid #333;
+  margin-left: 20px;
+    padding: 10px;
+    width: 300px;
+    background-color: antiquewhite;
+}
+
+section {
+/* padding-left: 50px; */
+/* background-color: #f5f5f5; */
+max-width: 800px;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    margin-bottom: 15px;
+    display: flex; /* Add this line */
+    justify-content: space-around; /* Optional: Adjust alignment as needed */
+    align-items: center; /* Optional: Align items vertically */
+}
+
+img {
+    max-width: 100%;
+    /* height: auto; */
+    /* border: 2px solid #333; Add a solid border */
+    width: 150px; /* Set width to 300px */
+    height: 150px; /* Set height to 300px */
+    /* border: 2px solid #333; */
+}
+
+/* --------------------------- */
+.card {
+    width: 150px;
+    height: 100px;
+    border: 1px solid #ddd;
+    
+    /* border-radius: 8px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 2cqmin 20px 20px;
+    background-color: #f5f5f5;
+    margin: 10px;
+}
+
+
+
+
+
